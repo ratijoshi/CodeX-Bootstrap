@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <title>Programming</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">CodeX</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Topics
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="programming.html">Programming</a>
+            <a class="dropdown-item" href="ai.html">Artificial Intelligence</a>
+            <a class="dropdown-item" href="iot.html">Internet of Things</a>
+          </div>
+        </li>
+        <li class="nav-item">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="checkout.html">Shopping Cart</a>
+        </li>
+      </ul>
+
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+      </form>
+      <div class="mx-2">
+        <button class="btn btn-info" data-toggle="modal" data-target="#LoginModal">Login</button>
+        <button class="btn btn-info" data-toggle="modal" data-target="#SignUpModal">SignUp</button>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- Login Modal -->
+  <div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="LoginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img src="images/Icon.jpg" width="100" height="70"></img>
+          <div class="container my-3">
+            <h4 class="modal-title" id="LoginModalLabel">Login to CodeX</h4>
+          </div>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Login</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SignUp Modal -->
+  <div class="modal fade" id="SignUpModal" tabindex="-1" aria-labelledby="SignUpModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img src="images/Icon.jpg" width="100" height="70"></img>
+          <div class="container my-3">
+            <h4 class="modal-title" id="SignUpModalLabel">SignUp to CodeX</h4>
+          </div>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+
+          <form>
+            <form>
+              <div class="row">
+                <div class="col">
+                  <label for="exampleInputName1">First Name</label>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="col">
+                  <label for="exampleInputName1">Last Name</label>
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+            </form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-group">
+              <label for="cexampleInputPassword1">Confirm Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+          </form>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Submit</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container my-4 mx-40">
+    <div class="row row-cols-1 row-cols-md-2">
+      <div class="col mb-4">
+        <div class="card">
+          <img src="images/IOT Course .jpg" width="300" height="330" class="card-img-top"
+            alt="Artificial Intelligence (Beginners)">
+
+          <div class="card-body">
+            <h4 class="card-title">Internet of Things Specialization</h4>
+            <br>
+            <p class="card-text">The explosive growth of the “Internet of Things” is changing our world and the rapid
+              drop in price for typical IoT components is allowing people to innovate new designs and products at home.
+              In this first class in the specialization you will learn the importance of IoT in society, the current
+              components of typical IoT devices and trends for the future. IoT design considerations, constraints and
+              interfacing between the physical world and your device will also be covered. You will also learn how to
+              make design trade-offs between hardware and software. We'll also cover key components of networking to
+              ensure that students understand how to connect their device to the Internet.</p>
+              <br>
+              <div class="container my-4 mx-2">
+            <h4>Course Fee: 999/-</h4>
+            <h4>Course Duration: 4 Months</h4>
+          </div>
+
+            <div class="container my-4 mx-2">
+              <button class="btn btn-primary btn-block">Details</button>
+              <button class="btn btn-primary btn-block">Purchase</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="images/IoT course1.jpg" width="300" height="330" class="card-img-top" alt="Artificial Intelligence (Intermediate)">
+          <div class="card-body">
+            <h4 class="card-title">Introduction to the Internet of Things and Embedded Systems</h4>
+            <p class="card-text">This Specialization covers the development of Internet of Things (IoT) products and
+              services—including devices for sensing, actuation, processing, and communication—to help you develop
+              skills and experiences you can employ in designing novel systems.This Specialization covers embedded
+              systems, the Raspberry Pi Platform, and the Arduino
+              environment for building devices that can control the physical world. In the final Capstone Project,
+              you’ll apply the skills you learned by designing, building, and testing a microcontroller-based embedded
+              system, producing a unique final project suitable for showcasing to future employers.</p>
+            <br>
+            <div class="container my-4 mx-2">
+            <h4>Course Fee: 1999/-</h4>
+            <h4>Course Duration: 8 Months</h4>
+          </div>
+            <div class="container my-4">
+              <button class="btn btn-primary btn-block">Details</button>
+              <button class="btn btn-primary btn-block">Purchase</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

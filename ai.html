@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <title>Programming</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">CodeX</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Topics
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="programming.html">Programming</a>
+            <a class="dropdown-item" href="ai.html">Artificial Intelligence</a>
+            <a class="dropdown-item" href="iot.html">Internet of Things</a>
+          </div>
+        </li>
+        <li class="nav-item">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="checkout.html">Shopping Cart</a>
+        </li>
+      </ul>
+
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+      </form>
+      <div class="mx-2">
+        <button class="btn btn-info" data-toggle="modal" data-target="#LoginModal">Login</button>
+        <button class="btn btn-info" data-toggle="modal" data-target="#SignUpModal">SignUp</button>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- Login Modal -->
+  <div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="LoginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img src="images/Icon.jpg" width="100" height="70"></img>
+          <div class="container my-3">
+            <h4 class="modal-title" id="LoginModalLabel">Login to CodeX</h4>
+          </div>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Login</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SignUp Modal -->
+  <div class="modal fade" id="SignUpModal" tabindex="-1" aria-labelledby="SignUpModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img src="images/Icon.jpg" width="100" height="70"></img>
+          <div class="container my-3">
+            <h4 class="modal-title" id="SignUpModalLabel">SignUp to CodeX</h4>
+          </div>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+
+          <form>
+            <form>
+              <div class="row">
+                <div class="col">
+                  <label for="exampleInputName1">First Name</label>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="col">
+                  <label for="exampleInputName1">Last Name</label>
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+            </form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-group">
+              <label for="cexampleInputPassword1">Confirm Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+          </form>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Submit</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container my-4 mx-40">
+    <div class="row row-cols-1 row-cols-md-2">
+      <div class="col mb-4">
+        <div class="card">
+          <img src="images/maxresdefault.jpg" width="300" height="330" class="card-img-top"
+            alt="Artificial Intelligence (Beginners)">
+
+          <div class="card-body">
+            <h4 class="card-title">Artificial Intelligence: Beginners</h4>
+            <p class="card-text">This course does not require any programming or computer science base and is
+              designed to introduce the basics of AI to anyone whether you have a technical background or not.In this
+              you will explore use cases and applications
+              of AI, understand AI concepts and terms like machine learning, deep learning and neural networks. You will
+              be exposed to various issues and concerns surrounding AI such as ethics and bias, & jobs, and get advice
+              from experts about learning and starting a career in AI.</p>
+            <h4>Course Fee: 1999/-</h4>
+            <h4>Course Duration: 4 Months</h4>
+
+            <div class="container my-4 mx-2">
+              <button class="btn btn-primary btn-block">Details</button>
+              <button class="btn btn-primary btn-block">Purchase</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="images/28.jpg" width="300" height="330" class="card-img-top" alt="Artificial Intelligence (Intermediate)">
+          <div class="card-body">
+            <h4 class="card-title">Artificial Intelligence: Intermediate</h4>
+            <p class="card-text">This course does not require any programming or computer science expertise and is
+              designed to introduce the basics of AI to anyone whether you have a technical background or not. You will
+              also demonstrate AI in action with a
+              mini project.Become an expert in the exciting
+              new world of AI & Machine Learning, get trained in
+              cutting edge technologies and work on real-life industry grade projects.</p>
+              <br>
+              <br>
+            <h4>Course Fee: 2999/-</h4>
+            <h4>Course Duration: 8 Months</h4>
+            <div class="container my-4">
+              <button class="btn btn-primary btn-block">Details</button>
+              <button class="btn btn-primary btn-block">Purchase</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="images/course3.jpg" width="300" height="330" class="card-img-top" alt="Artificial Intelligence (expertise)">
+          <div class="card-body">
+            <h4 class="card-title">Artificial Intelligence: Expertise</h4>
+            <p class="card-text"> This 6-course Professional
+              Certificate is designed to equip you with the tools you need to succeed in your career as an AI or ML
+              engineer.
+
+              You’ll master fundamental concepts of machine learning and deep learning, including supervised and
+              unsupervised learning, using programming languages like Python. You’ll apply popular machine learning and
+              deep learning libraries such as SciPy, ScikitLearn, Keras, PyTorch, and Tensorflow to industry problems
+              involving object recognition, computer vision, image and video processing, text analytics, natural
+              language processing (NLP), recommender systems, and other types of classifiers.</p>
+              <br>
+              <div class="container my-4">
+              <h4>Course Fee: 3999/-</h4>
+            <h4>Course Duration: 10 Months</h4>
+          </div>
+            <div class="container my-4">
+              <button class="btn btn-primary btn-block">Details</button>
+              <button class="btn btn-primary btn-block">Purchase</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="images/ML 1.jpg" width="300" height="330" height="360" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title">Emotion AI: Facial Key-Points Detection</h4>
+          
+              <h3><span class="badge badge-pill badge-primary">Guided Project</span></h3>
+          
+            <p class="card-text">In this project-based course, you will be able to:
+              Import Key libraries, dataset and visualize images.
+              Perform data augmentation to increase the size of the dataset, improve model generalization.
+              Build a deep learning model based on Convolutional Neural Network and Residual blocks using Keras with
+              Tensorflow 2.0 as a backend.
+              Compile and fit Deep Learning model to training data.
+              Assess the performance of trained CNN and ensure its generalization using various KPIs.
+              Improve network performance using regularization techniques like dropout.
+            </p>
+            <br>
+            <div class="container my-4">
+            <h4>Course Fee: 499/-</h4>
+            <h4>Course Duration: 1 Month</h4>
+          </div>
+            <div class="container my-4">
+              <button class="btn btn-primary btn-block">Details</button>
+              <button class="btn btn-primary btn-block">Purchase</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

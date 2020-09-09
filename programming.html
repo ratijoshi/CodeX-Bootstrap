@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <title>Programming</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">CodeX</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Topics
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="programming.html">Programming</a>
+            <a class="dropdown-item" href="ai.html">Artificial Intelligence</a>
+            <a class="dropdown-item" href="iot.html">Internet of Things</a>
+          </div>
+        </li>
+        <li class="nav-item">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="checkout.html">Shopping Cart</a>
+        </li>
+      </ul>
+
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+      </form>
+      <div class="mx-2">
+        <button class="btn btn-info" data-toggle="modal" data-target="#LoginModal">Login</button>
+        <button class="btn btn-info" data-toggle="modal" data-target="#SignUpModal">SignUp</button>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- Login Modal -->
+  <div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="LoginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img src="images/Icon.jpg" width="100" height="70"></img>
+          <div class="container my-3">
+            <h4 class="modal-title" id="LoginModalLabel">Login to CodeX</h4>
+          </div>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Login</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SignUp Modal -->
+  <div class="modal fade" id="SignUpModal" tabindex="-1" aria-labelledby="SignUpModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img src="images/Icon.jpg" width="100" height="70"></img>
+          <div class="container my-3">
+            <h4 class="modal-title" id="SignUpModalLabel">SignUp to CodeX</h4>
+          </div>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+
+          <form>
+            <form>
+              <div class="row">
+                <div class="col">
+                  <label for="exampleInputName1">First Name</label>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="col">
+                  <label for="exampleInputName1">Last Name</label>
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+            </form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-group">
+              <label for="cexampleInputPassword1">Confirm Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+          </form>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Submit</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container my-4 mx-40">
+    <div class="row row-cols-1 row-cols-md-2">
+      <div class="col mb-4">
+        <div class="card">
+          <img src="images/html.png" width="300" height="330" class="card-img-top"
+            alt="Artificial Intelligence (Beginners)">
+
+          <div class="card-body">
+            <h4 class="card-title">HTML, CSS, and BOOTSTRAP for Web Developers</h4>
+            <p class="card-text">In this course, we will learn the basic tools that every web page coder needs to know.
+              We will start from the ground up by learning how to implement modern web pages with HTML, CSS and
+              Bootstrap. We will
+              then advance to learning how to code our pages such that its components rearrange and resize themselves
+              automatically based on the size of the user’s screen. You’ll be able to code up a web page that will be
+              just as useful on a mobile phone as on a desktop computer.Set up, design and style a web page using
+              Bootstrap 4 and its components, Create a responsive web page design, and make use of web tools to
+              setup and manage web sites. </p>
+              <br>
+            <h4>Course Fee: 1999/-</h4>
+            <h4>Course Duration: 4 Months</h4>
+
+            <div class="container my-4 mx-2">
+              <button class="btn btn-primary btn-block">Details</button>
+              <button class="btn btn-primary btn-block">Purchase</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="images/679140.png" width="300" height="330" class="card-img-top"
+            alt="Artificial Intelligence (Intermediate)">
+          <div class="card-body">
+            <h4 class="card-title">Python for Everybody</h4>
+            <br>
+            <p class="card-text">This course aims to teach everyone the basics of programming computers using Python. We
+              cover the basics of how one constructs a program from a series of simple instructions in Python. The
+              course has no pre-requisites and avoids all but the simplest mathematics. Anyone with moderate computer
+              experience should be able to master the materials in this course.We will move past the basics of
+              procedural programming and explore how we can use the Python built-in data structures such as lists,
+              dictionaries, and tuples to perform increasingly complex data analysis. </p>
+            <br>
+            <br>
+            <h4>Course Fee: 1999/-</h4>
+            <h4>Course Duration: 4 Months</h4>
+            <div class="container my-4">
+              <button class="btn btn-primary btn-block">Details</button>
+              <button class="btn btn-primary btn-block">Purchase</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="images/C++.jpg" width="300" height="330" class="card-img-top"
+            alt="Artificial Intelligence (expertise)">
+          <div class="card-body">
+            <h4 class="card-title">C++ Programming</h4>
+            <p class="card-text"> This Specialization is intended for all programming enthusiasts, as well as beginners,
+              computer and other scientists, and artificial intelligence enthusiasts seeking to develop their
+              programming skills in the foundational languages of C and C++. Through the four courses — two in C, and
+              two in C++ — you will cover the basics of programming in C and move on to the more advanced C++ semantics
+              and syntax, which will prepare you to apply these skills to a number of higher-level problems using AI
+              algorithms and Monte Carlo evaluation in complex games.</p>
+            <br>
+            <br>
+            <div class="container my-4">
+              <h4>Course Fee: 1999/-</h4>
+              <h4>Course Duration: 4 Months</h4>
+            </div>
+            <div class="container my-4">
+              <button class="btn btn-primary btn-block">Details</button>
+              <button class="btn btn-primary btn-block">Purchase</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="images/JS.png" width="300" height="330" height="360" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title">Learning JavaScript</h4>
+
+
+            <p class="card-text">This Specialization is an introduction to building web applications for anybody who
+              already has a basic understanding of responsive web design with JavaScript.Web Applications for Everybody
+              is your introduction to web application development.Over the course of this
+              Specialization, you will create several web apps to add to your developer portfolio. This Specialization
+              (and its prerequisites) will prepare you, even if you have little to no experience in programming or
+              technology.You’ll demonstrate basic concepts, like database design, while working on assignments that
+              require the development of increasing challenging web apps.
+            </p>
+            <br>
+            <div class="container my-4">
+              <h4>Course Fee: 1499/-</h4>
+              <h4>Course Duration: 4 Month</h4>
+            </div>
+            <div class="container my-4">
+              <button class="btn btn-primary btn-block">Details</button>
+              <button class="btn btn-primary btn-block">Purchase</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
